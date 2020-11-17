@@ -10,9 +10,9 @@ public class Conexao {
         if(conexao == null){
         
             String driver = "org.postgresql.Driver";
-            String url = "jdbc:postgresql://192.168.0.105:5432/torrentz_filmes";
+            String url = "jdbc:postgresql://********/torrentz_filmes";
             String user = "postgres";
-            String password = "comandos46";
+            String password = "******";
                   
             Class.forName(driver);
             conexao = DriverManager.getConnection(url, user, password);  
